@@ -25,7 +25,7 @@ run:
 		-e LISTEN_ADDR \
 		cristi8/weather2prometheus
 
-run:
+run-arm:
 	docker run -d \
 		--name=weather2prom \
 		--net=host \
